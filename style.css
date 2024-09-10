@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+body {
+  /* background-color: black;
+    color: white; */
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.left {
+  width: 25vw;
+  padding: 10px;
+}
+.right {
+  width: 75vw;
+}
+
+.home ul li {
+  display: flex;
+  gap: 7px;
+  width: 15px;
+  list-style: none;
+  display: flex;
+  padding-top: 15px;
+  font-weight: 500;
+}
+
+.home{
+    padding: 10px;
+}
+
+.heading {
+    display: flex;
+    gap:7px;
+    width:100%;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+.heading img{
+    width:20px;
+}
+.library{
+    min-height: 50vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap:7px;
+    position:absolute;
+    bottom: 0;
+    padding: 10px 0;
+
+}
+
+.footer a{
+    color:grey;
+}
+
+.right {
+    margin:16px 0;
+    position: relative;
+}
+.header{
+    height:72px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.header > *{
+    padding: 20px;
+}
+.music-playlists{
+    padding:16px;
+}
+.music-playlists .card {
+    width:170px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+
+}
+.card > *{
+    padding-top: 10px;
+}
+
+.music-playlists .card img{
+    width:150px;
+    object-fit:contain ;
+   
+}
+.music-playlists .cardContainer{
+display: flex;
+gap:10px;
+flex-wrap: wrap;
+margin: 30px;
+overflow-y:scroll;
+max-height: 70vh;
+
+}
+
+.card .play{
+    position: absolute;
+     bottom: 110px;
+    right:-60px;
+    width: 10px;
+    height: 40px;
+    opacity: 0;
+    transition: all ;
+}
+
+
+.buttons > * {
+    margin: 0 12px;
+    display: inline-block;
+}
+
+.signupbtn {
+    background-color: rgb(34,34,34);
+    color: rgb(82,82,82);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: transform 0.2s ease, color 0.2s ease;
+    position: relative; 
+}
+
+.signupbtn:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.loginbtn {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, font-weight 0.2s ease;
+    position: relative;
+}
+
+.loginbtn:hover {
+    font-weight: 700;
+    transform: scale(1.05);
+    transform-origin: center;
+}
+
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(25, 31, 25) ;
+    width: 100%;
+    padding: 10px;
+}
+.songButtons{
+    display: :flex;
+    justify-content:center;
+    gap:16px;
+}
