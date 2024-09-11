@@ -170,10 +170,18 @@ max-height: 70vh;
     bottom: 0;
     background-color:rgb(25, 31, 25) ;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
 }
 .songButtons{
     display: :flex;
     justify-content:center;
     gap:16px;
+}
+
+.songList ul{
+    padding: 0 42px;
+}
+
+.songList ul li{
+    list-style-type: decimal;
 }
