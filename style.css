@@ -14,11 +14,11 @@ body {
     font-style: normal;
 }
 .left {
-  width: 25vw;
+  width: 30vw;
   padding: 10px;
 }
 .right {
-  width: 75vw;
+  width: 70vw;
 }
 
 .home ul li {
@@ -173,15 +173,42 @@ max-height: 70vh;
     padding: 12px;
 }
 .songButtons{
-    display: :flex;
+    display:flex;
     justify-content:center;
     gap:16px;
 }
 
 .songList ul{
-    padding: 0 42px;
+    padding: 0 12px;
 }
 
 .songList ul li{
     list-style-type: decimal;
+    display: flex;
+    gap:12px;
+    cursor: pointer;
+    padding: 12px 0px;
+    border:1px solid white;
+    margin:12px 0px;
+    padding: 13px;
+    border-radius: 5px;
+    justify-content: space-between;
+    /* width:250px; */
+}
+
+.playnow{
+    display:flex;
+    justify-content: cenetr;
+    align-items: center;
+   
+}
+
+.playnow span{
+    font-size:15px;
+    width:30px;
+    padding-right: 1px;
+   
+}
+div .songList .info{
+  
 }
