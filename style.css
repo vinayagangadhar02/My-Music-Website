@@ -166,10 +166,13 @@ max-height: 70vh;
 
 
 .playbar{
-    position: absolute;
-    bottom: 0;
+    
+    position: fixed;
+    bottom: 30px;
+    height: 40px;
+    border-radius: 30px;
     background-color:rgb(25, 31, 25) ;
-    width: 100%;
+    width: 62vw;
     padding: 12px;
 }
 .songButtons{
@@ -209,6 +212,46 @@ max-height: 70vh;
     padding-right: 1px;
    
 }
-div .songList .info{
-  
+.songList .info{
+  font-size: 13px;
+  width: 344px;
+}
+
+.songList{
+    height:544px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
+
+.seekbar{
+    height:2px;
+    width:61.5vw;
+    border:2px solid black;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.circle{
+    width:13px;
+    height:13px;
+    border-radius: 13px;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    bottom: 6px;
+    left:0%;
+     transition: left 0.5s;
+}
+
+.songButtons img{
+    cursor: pointer;
+}
+.songinfo ,.songtime{
+padding:0 12px;
+}
+
+.abovebar{
+    display: flex;
+    justify-content: space-between;
 }
